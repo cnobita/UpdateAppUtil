@@ -58,5 +58,5 @@ UpdateAppUtils.from(MainActivity.this)
                         .setUpdateInfo("")
                         .start();
 ```
-* 参考了[wasdzy的UpdateAppUtil](https://gitee.com/wasdzy/UpdateAppUtil)
-```Java
+#### 参考了
+* [wasdzy的UpdateAppUtil](https://gitee.com/wasdzy/UpdateAppUtil)
