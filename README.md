@@ -29,27 +29,29 @@ gradle
 此版本为请求权限，使用前请获取SD卡、网络、网络状态等相关权限
 
 方法一 内置ProgressDialog进度条下载
-
-UpdateAppUtils.from(MainActivity.this)
-                        .setApkUrl(url)
+```Java
+UpdateAppUtils.from(MainActivity.this)  .setApkUrl(url)
                         .initXutils3(getApplication())
                         .setServerVersionCode(2)
                         .setUpdateInfo("这里更新！")
                         .start();
+```
 方法二 使用浏览器下载
-
+```Java
 UpdateAppUtils.from(MainActivity.this)
                         .setApkUrl(url)
                         .setDownLoadByType(UpdateAppUtils.DOWNLOAD_BY_BROWSER)
                         .setServerVersionCode(2)
                         .setUpdateInfo("")
                         .start();
+```
 方法三 使用广播显示进度下载
-
+```Java
 UpdateAppUtils.from(MainActivity.this)
                         .initXutils3(getApplication())
                         .setApkUrl(url)
                         .setDownLoadByType(UpdateAppUtils.DOWNLOAD_BY_BROADCAST)
                         .setServerVersionCode(2)
                         .setUpdateInfo("")
-                        .start();                       
+                        .start();
+```
