@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<files-path name="my_images" path="images"/>-->
+    <!--代表外部存储区域的根目录下的文件 Environment.getExternalStorageDirectory()/DCIM/camerademo目录-->
+    <external-path name="hm_DCIM" path="Download" />
+    <!--<root-path/> 代表设备的根目录new File("/");-->
+    <!--<files-path/> 代表context.getFilesDir()-->
+    <!--<cache-path/> 代表context.getCacheDir()-->
+    <!--<external-path/> 代表Environment.getExternalStorageDirectory()-->
+    <!--<external-files-path>代表context.getExternalFilesDirs()-->
+    <!--<external-cache-path>代表getExternalCacheDirs()-->
+
+    <!--<root-path-->
+        <!--name="root_path"-->
+        <!--path="." />-->
+</paths>
