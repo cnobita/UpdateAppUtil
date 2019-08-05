@@ -36,6 +36,7 @@ gradle
 UpdateAppUtils.from(MainActivity.this)  .setApkUrl(url)
                         .initXutils3(getApplication())
                         .setServerVersionCode(2)
+			 .setForcedUpdate(true)//是否强制更新
                         .setUpdateInfo("这里更新！")
                         .start();
 ```
