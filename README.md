@@ -8,6 +8,8 @@
 
 ## 步骤1.将JitPack存储库添加到构建文件中
 
+* Android Studio
+
 gradle
 
 将其添加到存储库末尾的根build.gradle中：
@@ -56,3 +58,5 @@ UpdateAppUtils.from(MainActivity.this)
                         .setUpdateInfo("")
                         .start();
 ```
+* 参考了[wasdzy的UpdateAppUtil](https://gitee.com/wasdzy/UpdateAppUtil)
+```Java
