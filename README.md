@@ -2,7 +2,8 @@
 一键升级 已经适配Android 6、7、8、9
 
 
-使用步骤：
+#使用步骤：
+
 要将Git项目放入您的构建中：
 
 步骤1.将JitPack存储库添加到构建文件中
@@ -24,7 +25,7 @@ gradle
 	        implementation 'com.github.cnobita:UpdateAppUtil:v2.0'
 	}
 
-使用说明
+#使用说明
 
 此版本为请求权限，使用前请获取SD卡、网络、网络状态等相关权限
 
