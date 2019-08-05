@@ -1,4 +1,4 @@
-# UpdateAppUtil
+# UpdateAppUtil 项目介绍
 一键升级 已经适配Android 6、7、8、9
 
 
@@ -58,5 +58,5 @@ UpdateAppUtils.from(MainActivity.this)
                         .setUpdateInfo("")
                         .start();
 ```
-#### 参考了
+#### 本项目是基于以下项目
 * [wasdzy的UpdateAppUtil](https://gitee.com/wasdzy/UpdateAppUtil)
