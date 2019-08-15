@@ -1,4 +1,4 @@
-###此版本为基于新的Android扩展库（AndroidX）开发的
+### 此版本为基于新的Android扩展库（AndroidX）开发的
 
 # UpdateAppUtil 项目介绍
 一键升级 已经适配Android 6、7、8、9
