@@ -192,7 +192,7 @@ public class UpdateAppUtils {
                             if (null != callBackMsg) {
                                 callBackMsg.backMassage("请打开权限：" + permission);
                             }
-                            PermissionUtil.toAppSetting(context);
+//                            PermissionUtil.toAppSetting(context);
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
